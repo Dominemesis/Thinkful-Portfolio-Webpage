@@ -1,0 +1,119 @@
+/* ------ Structure ------ */
+
+body{
+	margin: 0;
+	background-color: #CED3DC;
+}
+
+header {
+	height: 140px;
+	background-color: #020300;	
+}
+
+footer{
+	height: 84px;
+	background-color: #020300;
+}
+
+.wrapper{
+	width: 580px;
+	margin: auto;	
+}
+
+img{
+	width: 100%;
+}
+
+/* ------- Logo ------ */
+
+header h1{
+	font-family: Georgia, serif;
+	color: white;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align: center;
+}
+
+header h2{
+	font-family: Georgia, serif;
+	color: white;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* ------ Type ----- */
+
+h1, h2 {
+	color: #020300;
+	font-family: 'Times New Roman', serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family: Ariel, sans-sarif;
+	color: #020300;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:link { color: #044389; }
+a:visited { color: #4D7298; }
+a:hover { color: #0E6BA8; }
+a:active { color: #0A2239; }
+
+a:hover{
+	text-decoration: underline;
+}
+
+footer p {
+	color: white;
+	text-align: center; 
+}
+footer a:link { color: #044389; }
+footer a:visited { color: #4D7298; }
+footer a:hover { color: #0E6BA8; }
+footer a:active { color: #0A2239; }
+
+/* ------- Elements ------ */
+
+img, iframe { border-radius: 8px; }
+
+iframe { border: 1px black; }
+
+hr { border: .5px black; }
+
+/* ------ Portfolio Section ------ */
+
+.portfolio-item h3 {
+	text-align: center;
+}
+
+/* ------ Spacers ------ */
+
+.gap-sm {
+	height: 50px;
+	width: auto;
+}
+.gap-md {
+	height: 100px;
+	width: auto;	
+}
+.gap-lg {
+	height: 200px;
+	width: auto;
+}
+.gap-footer {
+	height: 10px;
+	width: auto;
+}
